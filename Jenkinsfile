@@ -6,9 +6,8 @@ pipeline
   stage('SCM checkout')
     {
       steps {
-                   
-            }
-        git "https://github.com/ssrivastava210/Repo1" 
+               git "https://github.com/ssrivastava210/Repo1"    
+      }   
     }
   }
 
